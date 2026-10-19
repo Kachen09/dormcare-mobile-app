@@ -1,13 +1,13 @@
 # DORMCARE Mobile
 
-โฟลเดอร์นี้เป็นส่วน React Native/Expo ของโปรเจกต์ DORMCARE
+แอปมือถือ DORMCARE พัฒนาด้วย React Native และ Expo
 
 ## ติดตั้งแพ็กเกจ
 
-ให้เปิด Terminal ที่โฟลเดอร์ `mobile` แล้วรัน:
+เปิด Terminal ในโฟลเดอร์โปรเจกต์แล้วรัน:
 
 ```bash
-npm install firebase @react-native-async-storage/async-storage
+npm install
 ```
 
 จากนั้นคัดลอก `.env.example` เป็น `.env` และใส่ค่า Firebase Web App Config จาก Firebase Console ห้าม commit หรืออัปโหลดไฟล์ `.env`
@@ -27,19 +27,13 @@ npm install firebase @react-native-async-storage/async-storage
 
 ข้อมูลทุกกลุ่มบันทึกใน Cloud Firestore และแสดงผลแบบเรียลไทม์ บัญชีผู้เช่าใช้อีเมลเดียวกับรายการใน `tenants` เพื่อดูสัญญา บิล และรายการแจ้งปัญหาของตนเอง
 
-ไม่มีหน้าสมัครสมาชิก ผู้ดูแลสร้างบัญชีผู้เช่าพร้อมรหัสผ่านเริ่มต้นจากหน้า "ข้อมูลผู้เช่า" ได้ ส่วนบัญชี admin ตั้งค่าใน Firebase Console ใน Firebase Console
+ไม่มีหน้าสมัครสมาชิก ผู้ดูแลสร้างบัญชีผู้เช่าจากหน้า "ข้อมูลผู้เช่า" ส่วนบัญชีผู้ดูแลและ Firebase Authentication ต้องตั้งค่าใน Firebase Console ก่อนทดสอบ Login
 
-## วิธีใช้ Provider
+## ดาวน์โหลดแอปเพื่อทดลอง
 
-```jsx
-<AuthProvider>
-  <DormProvider>
-    <RoomProvider>
-      <App />
-    </RoomProvider>
-  </DormProvider>
-</AuthProvider>
-```
+สแกน QR Code เพื่อดาวน์โหลดไฟล์ติดตั้ง Android (APK):
 
-ต้องติดตั้ง Firebase Authentication และสร้างบัญชีทดสอบใน Firebase Console ก่อนทดสอบ Login
+<!-- QR_INSTALLER -->
+
+ต้องอนุญาตให้ติดตั้งแอปจากแหล่งนี้บน Android ก่อนติดตั้ง APK
 
