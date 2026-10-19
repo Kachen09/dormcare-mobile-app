@@ -31,9 +31,9 @@ npm install
 
 ## ดาวน์โหลดแอปเพื่อทดลอง
 
-สแกน QR Code เพื่อดาวน์โหลดไฟล์ติดตั้ง Android (APK):
+สแกน QR Code หรือ [ดาวน์โหลด DORMCARE.apk](https://github.com/Kachen09/dormcare-mobile-app/raw/refs/heads/main/downloads/DORMCARE.apk) บนโทรศัพท์ Android:
 
-<!-- QR_INSTALLER -->
+[![QR Code สำหรับดาวน์โหลด DORMCARE](downloads/DORMCARE-QR.png)](https://github.com/Kachen09/dormcare-mobile-app/raw/refs/heads/main/downloads/DORMCARE.apk)
 
 ต้องอนุญาตให้ติดตั้งแอปจากแหล่งนี้บน Android ก่อนติดตั้ง APK
 
