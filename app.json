@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "DORMCARE",
+    "slug": "dormcare-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.dormcare.mobile",
+      "versionCode": 2
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a36b9058-4484-4f90-8c03-945333ca47d3"
+      }
+    },
+    "owner": "kachen09"
+  }
+}
