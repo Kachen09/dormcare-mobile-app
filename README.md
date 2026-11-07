@@ -39,7 +39,7 @@ npm install
 
 รหัสในการเทส
 
-kachankk67@gmail.com
+Gmail: kachankk67@gmail.com
 
-admin123
+Password: Admin123
 
