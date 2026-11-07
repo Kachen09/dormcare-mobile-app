@@ -37,3 +37,7 @@ npm install
 
 ต้องอนุญาตให้ติดตั้งแอปจากแหล่งนี้บน Android ก่อนติดตั้ง APK
 
+รหัสในการเทส
+kachankk67@gmail.com
+admin123
+
