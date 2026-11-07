@@ -10,7 +10,7 @@
 npm install
 ```
 
-จากนั้นคัดลอก `.env.example` เป็น `.env` และใส่ค่า Firebase Web App Config จาก Firebase Console ห้าม commit หรืออัปโหลดไฟล์ `.env`
+จากนั้นคัดลอก `.env.example` เป็น `.env` และใส่ค่า Firebase Web App Config จาก Firebase Console
 
 ## โครงสร้างข้อมูลและ Context
 
